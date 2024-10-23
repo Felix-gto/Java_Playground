@@ -1,6 +1,6 @@
 package Basics;
 
-public class Methods {
+public class Methods_Basics {
     public static void main(String[] args) {
         //sayHello()
         System.out.println("\nMETHOD - Calling a basic method");
