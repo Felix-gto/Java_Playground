@@ -24,6 +24,13 @@ public class Arrays {
         numbersArray[2] = 30;
         numbersArray[3] = 40;
         numbersArray[4] = 50;
+        //numbersArray[5] = 60;   // ->  Array index out of bounds (we defined max 5 values for the array)
+
+        System.out.println("Defined Array - Looping through values:");
+        for(int numberInNumbersArray : numbersArray) {
+            System.out.println(numberInNumbersArray);
+        }
+
 
         //Challenge - Run getHighestNumber Method
         System.out.println("\n" + "Get Highest Number: Pass an array as a parameter to a method and get the highest number:");
