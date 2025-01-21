@@ -2,8 +2,6 @@ package Interfaces;
 
 public class Cat implements InterfaceExample {
 
-    String test = "Test";
-
     public void showCatInfo() {
         String breed = "European";
         String color = "black";
