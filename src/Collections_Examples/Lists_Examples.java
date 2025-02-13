@@ -10,6 +10,10 @@ public class Lists_Examples {
         // Standard Array
         String[] cars = {"Volvo", "BMW", "Honda"};
 
+        for (String car : cars) {
+            System.out.println(car);
+        }
+
         //ArrayList - can be manipulated
         List<String> animals = new ArrayList<>();
         animals.add("Cat");
