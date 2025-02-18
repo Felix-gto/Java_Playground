@@ -13,14 +13,6 @@ public class Sets_Examples {
         hashSetExample.add("Felix");
         System.out.println("hashSetExample contains: " + hashSetExample);
 
-        //TREE SET
-        Set<String> treeSetExample2 = new TreeSet<>();
-        // Slowest set for adding and retrieving data
-        // Sorted order (all data is sorted)
-
-        treeSetExample2.add("Daraban");
-        System.out.println("treeSetExample2 contains: " + treeSetExample2);
-
         //LINKED HASHSET
         Set<Integer> linkedHashSetExample3 = new LinkedHashSet<>();
         // Faster than TreeSet and slower than HashSet
@@ -29,6 +21,13 @@ public class Sets_Examples {
 
         System.out.println("linkedHashSetExample3 contains the following integers: " + linkedHashSetExample3);
 
+        //TREE SET
+        Set<String> treeSetExample2 = new TreeSet<>();
+        // Slowest set for adding and retrieving data
+        // Sorted order (all data is sorted)
+
+        treeSetExample2.add("Daraban");
+        System.out.println("treeSetExample2 contains: " + treeSetExample2);
 
         // !!! SET OPERATIONS !!!
 
@@ -37,7 +36,7 @@ public class Sets_Examples {
         setA.add(1);
         setA.add(2);
 
-        // Add aray of integers to existing setA
+        // Add array of integers to existing setA
         Integer[] integerArray = {3,4,5};
         Collections.addAll(setA, integerArray);
         System.out.println("setA now contains: " + setA);

@@ -19,6 +19,5 @@ public class Lists_Examples {
         animals.add("Cat");
         Collections.addAll(animals, "Dog", "Mouse", "Horse");
         System.out.println("The animals[] array contains the following animals: " + animals);
-
     }
 }
