@@ -40,5 +40,8 @@ public class Maps_Examples {
         treeMap.put("FirstName", "Felix");
         treeMap.put("LastName", "Daraban");
         System.out.println("Linked Tree Map: " + treeMap);
+
+        System.out.println("Tree Map keys are: " + treeMap.keySet());
+        System.out.println("Tree Map values are: " + treeMap.values());
     }
 }
