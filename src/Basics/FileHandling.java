@@ -13,7 +13,7 @@ public class FileHandling {
         // Create object of type File - Relative or absolute path (path only file name since it's in the root folder)
         File myFile = new File("fileExample");
 
-        // Read the file - using Scanner & while loop
+        // Create Scanner object
         Scanner scanner = new Scanner(myFile);
 
         // FileWriter - adds "throws IOException" in the psvm (more complete than FileNotFoundException)
@@ -24,6 +24,7 @@ public class FileHandling {
         fileWriter.flush();
         fileWriter.close();
 
+        // Read the file - using Scanner & while loop
         // .hasNext() returns a boolean - true if we have something to read
         while (scanner.hasNext()) {
             // scanner.next() returns a string - content of the file, each word listed on separate lines
