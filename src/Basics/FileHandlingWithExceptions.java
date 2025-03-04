@@ -20,7 +20,7 @@ public class FileHandlingWithExceptions {
             File file = new File(fileName);
             // Returns "true" if the file is successfully created
             if (file.exists()) {
-                System.out.println("File already exists");;
+                System.out.println("File already exists");
             }
             return file.createNewFile();
 
