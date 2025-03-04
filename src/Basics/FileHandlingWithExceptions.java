@@ -8,9 +8,9 @@ import java.util.Scanner;
 public class FileHandlingWithExceptions {
 
     public static void main(String[] args) {
-        createFile("testFileExample");
-        writeToFile("testFileExample","The quick brown fox jumps over the lazy dog");
-        System.out.println(readFromFile("testFileExample"));
+        createFile("fileTestExample");
+        writeToFile("fileTestExample","The quick brown fox jumps over the lazy dog");
+        System.out.println(readFromFile("fileTestExample"));
     }
 
     // CREATE A FILE
