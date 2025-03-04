@@ -9,7 +9,7 @@ public class FileHandlingWithExceptions {
 
     public static void main(String[] args) {
         createFile("fileTestExample");
-        writeToFile("fileTestExample","The quick brown fox jumps over the lazy dog");
+        writeToFile("fileTestExample","The quick brown fox jumps over the lazy dog.");
         System.out.println(readFromFile("fileTestExample"));
     }
 

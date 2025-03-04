@@ -18,7 +18,7 @@ public class FileHandling {
 
         // FileWriter - adds "throws IOException" in the psvm (more complete than FileNotFoundException)
         FileWriter fileWriter = new FileWriter("fileExample");
-        fileWriter.write("The quick brown fox jumps over the lazy dog.");
+        fileWriter.write("She sells seashells by the seashore.");
 
         // Add after fileWriter.write before outputting the content of the file (otherwise file basically is in use)
         fileWriter.flush();
