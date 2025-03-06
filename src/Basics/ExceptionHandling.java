@@ -11,7 +11,7 @@ public class ExceptionHandling {
         String[] arrayOfStrings = {"Felix","Alina","Luna"};
         try {
             System.out.println("Code before exception");
-            // Exception thrown - ArrayIndexOutOfBoundsException
+            // Exception thrown since we try to print 4th array element (we only have 3) - ArrayIndexOutOfBoundsException
             System.out.println(arrayOfStrings[3]);
             // Code not executed
             System.out.println("Code after exception");
