@@ -3,15 +3,16 @@ package Collections_Examples;
 import java.util.HashMap;
 import java.util.Map;
 
-public class StudentMapExercise {
+// Udemy Assignment description: https://www.udemy.com/course/automation-testing-masterclass/learn/quiz/5817080#questions/20170312
+// Udemy Assignment explanation: https://www.udemy.com/course/automation-testing-masterclass/learn/lecture/45025493#questions/20170312
 
-    // Coding exercise explanation: https://www.udemy.com/course/automation-testing-masterclass/learn/lecture/45025493#questions/20170312
+public class Udemy_Maps_StudentMap {
 
     // Map object named "studentData". The map has String keys and Student objects as values.
     private Map<String, Student> studentData;
 
     // Constructor that initializes studentData with a new instance of HashMap. Allows for storing students with a unique key
-    public StudentMapExercise() {
+    public Udemy_Maps_StudentMap() {
         studentData = new HashMap<>();
     }
 
